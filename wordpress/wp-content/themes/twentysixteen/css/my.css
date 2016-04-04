@@ -8,6 +8,7 @@ overflow: hidden !important;
 	width: 96.674% !important;
 	height: auto !important;
 	margin: auto !important;
+	max-width:988px !important;
 }
 /* may be here will some problem or for margin -50%
 and image arent declear by %
@@ -32,74 +33,99 @@ and image arent declear by %
     height: 24.5vw !important;
 	left: 4.8924vw !important;
     top: 29.3542vw !important;
+	max-height: 250px;
+	max-width: 250px;
 }
-/* ai porjonto full width responsive kora hoice */
+
 
 #bln > div:nth-child(2){
     width: 16.6vw !important;
     height: 16.6vw !important;
     left: 13.6986vw !important;
     top: 54.7945vw !important;
+	max-height: 170px;
+	max-width: 170px;
 }
 #bln > div:nth-child(3){
     width: 19.57vw !important;
     height: 19.57vw !important;
     left: 38.1605vw !important;
     top: 73.3855vw !important;
+	max-height: 220px;
+	max-width: 220px;
 }
 #bln > div:nth-child(4){
     width: 18.591vw !important;
     height: 18.591vw !important;
     left: 14.677vw !important;
     top: 83.1703vw !important;
+	max-height: 190px;
+	max-width: 190px;
 }
 #bln > div:nth-child(5){
     width: 23.484vw !important;
     height: 23.484vw !important;
     left: 34.2466vw !important;
     top: 102.74vw !important;
+	max-height: 240px;
+	max-width: 240px;
 }
 #bln > div:nth-child(6){
 	width: 22.505vw !important;
     height: 22.505vw !important;
     left: 2.9354vw !important;
     top: 190.8vw !important;
+	max-height: 230px;
+	max-width: 230px;
 }
 #bln > div:nth-child(7){
 	width: 19.57vw !important;
     height: 19.57vw !important;
     left: 29.3542vw !important;
     top: 205.479vw !important;
+	max-height: 200px;
+	max-width: 200px;
 }
 #bln > div:nth-child(8){
     width: 21.527vw !important;
     height: 21.527vw !important;
     left: 58.7084vw !important;
     top: 249.511vw !important;
+	max-height: 220px;
+	max-width: 220px;
 }
 #bln > div:nth-child(9){
 	width: 18.591vw !important;
     height: 18.591vw !important;
     left: 75.3209vw !important;
     top: 264.188vw !important;
+	max-height: 190px;
+	max-width: 190px;
 }
 #bln > div:nth-child(10){
     width: 29.355vw !important;
     height: 29.355vw !important;
     left: 14.6771vw !important;
     top: 293.542vw !important;
+	max-height: 300px;
+	max-width: 300px;
 }
 #bln > div:nth-child(11){
     width: 19.57vw !important;
     height: 19.57vw !important;
     left: 28.3757vw !important;
     top: 322.896vw !important;
+	max-height: 200px;
+	max-width: 200px;
 }
 #wrapper-inner {
-	left: 0 !important;
-    margin: 0 4.5% 0 4.5% !important;
+	margin-left: auto !important;
+	left: auto !important;
+    margin: auto !important;
     width: 91% !important;
     max-width: 930px !important;
+	position: relative !important;
+	
 }
 #sitehead > h1 > img{
 	width: 84.8% !important;
@@ -344,10 +370,18 @@ and image arent declear by %
 	margin: auto !important;
 	}
 	#logo {
-	left: 5vw !important;
+	left: auto !important;
 	width: 100% !important;
 	margin: auto !important;
 	max-width: 346.391px !important;
+	position: relative !important;
+	top: 80.6vw !important;
 	}
 
+}
+
+@media screen and (min-width: 1059px){
+	#bln > div:nth-child(9){
+		    left: 70.3209vw !important;
+	}
 }
