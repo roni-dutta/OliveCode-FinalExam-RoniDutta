@@ -4,24 +4,29 @@ body{
 img{
 overflow: hidden !important;
 }
+#idx-cont_fig01 > article > div > div.figTxt > strong:nth-child(3),
+#idx-cont_fig01 > article > div > div.figTxt > strong:nth-child(1){
+	font-weight: bold;
+}
 #bkPhoto1 > img{
 	width: 96.674% !important;
 	height: auto !important;
 	margin: auto !important;
 	max-width:988px !important;
 }
+
 /* may be here will some problem or for margin -50%
 and image arent declear by %
  */
 #bkPhoto2{
-	top: 113.5vw !important;
+	top: 126.223vw !important;
 	left: 6.8493vw !important;
 }
 /* may be here will some problem or for margin -50%
 and image arent declear by %
  */
 #bkPhoto3{
-	top: 277vw !important;
+	top: 308.219vw !important;
 	left: -83.1703vw  !important;
 }
 #bln{
@@ -39,16 +44,16 @@ and image arent declear by %
 
 
 #bln > div:nth-child(2){
-    width: 16.6vw !important;
-    height: 16.6vw !important;
+    width: 16.64vw !important;
+    height: 16.64vw !important;
     left: 13.6986vw !important;
     top: 54.7945vw !important;
 	max-height: 170px;
 	max-width: 170px;
 }
 #bln > div:nth-child(3){
-    width: 19.57vw !important;
-    height: 19.57vw !important;
+    width: 22.57vw !important;
+    height: 22.57vw !important;
     left: 38.1605vw !important;
     top: 73.3855vw !important;
 	max-height: 220px;
@@ -128,7 +133,7 @@ and image arent declear by %
 	
 }
 #sitehead > h1 > img{
-	width: 84.8% !important;
+	width: 84.84% !important;
 	height: auto !important;
 	max-width: 900px !important;
 	margin: auto;
@@ -156,22 +161,38 @@ and image arent declear by %
 	width: 100% !important;
 }
  */
-.idx-figCont{
-	width: 82% !important;
-	padding: 8.23% 8.84% 10.62% 8.84% !important;
+
+#idx-cont_fig01 .idx-figCont{
+	width: 82.302% !important;
 }
+#idx-cont_fig02 .idx-figCont{
+	width: 88.305% !important;
+}
+#idx-cont_fig03 .idx-figCont{
+	width: 88.24% !important;
+}
+#idx-cont_fig03 > article > div{
+	padding-right: 0 !important;
+}
+#idx-cont_fig04 .idx-figCont{
+	width: 88.997% !important;
+}
+#idx-cont_fig05 .idx-figCont{
+	width: 84.82% !important;
+}
+
 .figImg{
-	margin-bottom: 0.8vw !important;
+	margin-bottom: 0.9785vw !important
 }
 .figTi{
-	margin-bottom: 1.7578vw !important;
+	margin-bottom: 1.957vw !important;
 	font-weight: bold;
 }
 .figCopy {
-	margin-bottom: 6.55vw !important;
+	margin-bottom: 7.2407vw !important
 }
 .figTxt {
-	margin-bottom: 1.7vw !important;
+	margin-bottom: 1.957vw !important
 }
 /* .idx-figCont .nav ul li{
 	height: 1.6vw !important;
@@ -179,7 +200,7 @@ and image arent declear by %
     margin: 0 .78vw .8vw 0 !important;
 } */
 #idx-cont_fig01{
-    width: 36.4% !important;
+    width: 36.453% !important;
     top: 55.773vw !important;
     left: 58.7084vw !important;
 }
@@ -189,7 +210,7 @@ and image arent declear by %
     left: 0 !important;
 }
 #idx-cont_fig03{
-	width: 40.58% !important;
+	width: 40.78% !important;
     top: 182.9vw !important;
     left: 56.67vw !important;
 }
@@ -207,7 +228,7 @@ and image arent declear by %
 }
 #idx-cont_fig05{
 	width: 42.47% !important;
-	top: 290.757vw !important;
+	top: 293.5vw !important;
     left: 48.923vw !important;
 }
 .figCopy > p {
@@ -228,9 +249,9 @@ and image arent declear by %
 	width: 100% !important;
 }
 #footObj {
-    width: 90% !important;
-    min-width: 300px !important;
-	margin: 5% 5% 0 0 !important;
+    width: 90.999% !important;
+    min-width: 280px !important;
+	margin: 0 4.502% 0 0 !important;
     text-align: center !important;
     left: 5% !important;
 	height: auto !important;
@@ -284,6 +305,11 @@ and image arent declear by %
 	margin: auto !important;
 	 
 }
+/* #bln > div:nth-child(9){
+	visibility: hidden !important;
+	width: 0px !important;
+	height: 0px !important;
+} */
 @media screen and (max-width: 768px) {
 	#bkPhoto2,
 	#tree,
@@ -326,6 +352,12 @@ and image arent declear by %
 	.figCopy{
 		margin-top: 6.5vw;
 	}
+	.idx-figCont{
+		padding: 6% !important;
+	}
+	#idx-cont_fig05 > article > div > div.nav > ul > li{
+		width: 30% !important;
+	}
 	#idx-cont_fig01 > article > div > div.figCopy{
 		margin-top: 15.5vw !important;
 	}
@@ -348,25 +380,19 @@ and image arent declear by %
 		top: 60vw !important;
 	}
 	#idx-cont_fig01{
-		top: 100vw !important;
+		top: 114vw !important;
 	}
 	#idx-cont_fig02{
-		top: 315vw !important;
+		top: 457vw !important;
 	}
 	#idx-cont_fig03{
-		top: 500vw !important;
+		top: 710vw !important;
 	}
 	#idx-cont_fig04{
-		top: 647vw !important;
+		top: 935vw !important;
 	}
 	#idx-cont_fig05{
-		top: 805vw !important;
-	}
-	#idx-cont_fig04 > div.idx-bkBtm > img{
-
-	}
-	ul{
-		margin: 5px !important;
+		top: 1150vw !important;
 	}
 	#footObj {
     width: 88% !important;
