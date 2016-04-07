@@ -1,14 +1,6 @@
-/* 
-1 need to fixed 1300px view 
-2 need to change resize window view
-3 in 320px view logo need to post more bottom side
-
-*/
-
 body{
 	min-width: 300px !important;
 }
-
 @media screen and (max-width: 1030px){
 	img{
 	overflow: hidden !important;
@@ -154,8 +146,7 @@ body{
 	#news2{
 		top: 32.2896vw !important;
 		left: 66.5362vw !important;
-	}
-		
+	}	
 	/* 
 	#idx-cont_fig01 > div.idx-bkTop > img,
 	#idx-cont_fig02 > div.idx-bkTop > img,
@@ -429,5 +420,127 @@ body{
 		visibility: hidden !important;
 		width: 0px !important;
 		height: 0px !important;
+	}
+}
+@media screen and (max-width: 1030px){
+	#idx-cont_fig01 > div.idx-bkMid{
+		height: 26vw !important;
+	}
+}
+
+@media screen and (max-width: 963px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 28vw !important;
+	}
+}
+@media screen and (max-width: 954px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 37vw !important;
+	}
+	#idx-cont_fig02 > div.idx-bkMid{
+	height: 10vw !important;
+	}
+	#idx-cont_fig05 > div.idx-bkMid{
+	height: 13vw !important;
+	}
+}
+@media screen and (max-width: 878px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 40vw !important;
+	}
+	#idx-cont_fig02 > div.idx-bkMid{
+	height: 17vw !important;
+	}
+}
+@media screen and (max-width: 843px){
+	#idx-cont_fig03 > div.idx-bkMid{
+	height: 25vw !important;
+	}
+	#idx-cont_fig05 > div.idx-bkMid{
+	height: 25vw !important;
+	}
+}
+@media screen and (max-width: 831px){
+	#idx-cont_fig03 > div.idx-bkMid{
+	height: 40vw !important;
+	}
+}
+@media screen and (max-width: 788px){
+	#idx-cont_fig02 > div.idx-bkMid{
+	height: 24vw !important;
+	}
+}
+@media screen and (max-width: 768px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 32vw !important;
+	}
+	#idx-cont_fig03 > div.idx-bkMid{
+	height: 32vw !important;
+	}
+	#idx-cont_fig05 > div.idx-bkMid{
+	height: 16vw !important;
+	}
+}
+@media screen and (max-width: 615px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 36vw !important;
+	}
+	#idx-cont_fig02 > div.idx-bkMid{
+	height: 31vw !important;
+	}
+}
+@media screen and (max-width: 409px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 48vw !important;
+	}
+	#idx-cont_fig02 > div.idx-bkMid{
+	height: 48vw !important;
+	}
+	#idx-cont_fig03 > div.idx-bkMid{
+	height: 45vw !important;
+	}
+}
+@media screen and (max-width: 378px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 60vw !important;
+	}
+	#idx-cont_fig05 > div.idx-bkMid{
+	height: 30vw !important;
+	}
+}
+@media screen and (max-width: 354px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 67vw !important;
+	}
+	#idx-cont_fig02 > div.idx-bkMid{
+	height: 65vw !important;
+	}
+	#idx-cont_fig03 > div.idx-bkMid{
+	height: 60vw !important;
+	}
+}
+@media screen and (max-width: 346px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 84vw !important;
+	}
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 84vw !important;
+	}
+	#idx-cont_fig03 > div.idx-bkMid{
+	height: 80vw !important;
+	}
+}
+@media screen and (max-width: 320px){
+	#idx-cont_fig01 > div.idx-bkMid{
+	height: 102vw !important;
+	}
+	#idx-cont_fig02 > div.idx-bkMid{
+	height: 82vw !important;
+	}
+	#idx-cont_fig03 > div.idx-bkMid{
+	height: 82vw !important;
+	}
+	#idx-cont_fig05 > div.idx-bkMid{
+	height: 50vw !important;
 	}
 }
