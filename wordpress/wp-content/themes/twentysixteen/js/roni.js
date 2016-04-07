@@ -240,3 +240,79 @@ $(document).ready(function(){
     });
 });
 /* fig 5 end */
+
+/* 	$(window).resize(function() {
+		if ($("#idx-cont_fig02").length < ("#idx-cont_fig02 > article > div").length) 
+		{
+		$("#idx-cont_fig02").css('height', '247px');
+		} 
+		else {
+			$("#idx-cont_fig02").css('height', '607px');
+		}
+	});
+	 */
+/* $(window).resize(function() 
+	if ( $('#idx-cont_fig02 > article > div').height() < $('#idx-cont_fig02').height() ) 
+	{
+    var dogHeight = $('#idx-cont_fig02').height()
+    $('#idx-cont_fig02 > article > div').height(dogHeight)
+}) */
+/* var resizeTimer;
+$(window).resize(function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+        var $cat = $('#idx-cont_fig02'), $dog = $('#idx-cont_fig02 > article > div');
+        $cat.height(Math.max($cat.height(), $dog.height()));
+    }, 100);
+}); */
+/*  $(window).resize(function() {
+ var cHeight = $("#cat").height();
+ var dHeight = $("#dog").height();
+ if(cHeight < dHeight){
+  $("#dHeight").height(cHeight);
+ } */
+  $(window).resize(function() {
+	 var d1v = $("#idx-cont_fig01 > article > div").height();
+	 var one = $("#idx-cont_fig01").height();
+	 if(d1v > one){
+	  $("#idx-cont_fig01").height(d1v)
+	  } else if (d1v < one){
+		$("#idx-cont_fig01 > article > div").height(one)
+	  };
+ });
+ $(window).resize(function() {
+	 var d2v = $("#idx-cont_fig02 > article > div").height();
+	 var two = $("#idx-cont_fig02").height();
+	 if(d2v > two){
+	  $("#idx-cont_fig02").height(d2v)
+	  } else if (d2v < two){
+		$("#idx-cont_fig02 > article > div").height(two)
+	  };
+ });
+ $(window).resize(function() {
+	 var d3v = $("#idx-cont_fig03 > article > div").height();
+	 var three = $("#idx-cont_fig03").height();
+	 if(d3v > three){
+	  $("#idx-cont_fig03").height(d3v)
+	  } else if (d3v < three){
+		$("#idx-cont_fig03 > article > div").height(three)
+	  };
+ });
+ $(window).resize(function() {
+	 var d4v = $("#idx-cont_fig04 > article > div").height();
+	 var four = $("#idx-cont_fig04").height();
+	 if(d4v > four){
+	  $("#idx-cont_fig04").height(d4v)
+	  } else if (d4v < four){
+		$("#idx-cont_fig04 > article > div").height(four)
+	  };
+ });
+ $(window).resize(function() {
+	 var d5v = $("#idx-cont_fig05 > article > div").height();
+	 var five = $("#idx-cont_fig05").height();
+	 if(d5v > five){
+	  $("#idx-cont_fig05").height(d5v)
+	  } else if (d5v < five){
+		$("#idx-cont_fig05 > article > div").height(five)
+	  };
+ });
